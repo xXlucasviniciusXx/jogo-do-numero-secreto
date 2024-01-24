@@ -2,7 +2,7 @@
 
 let tentativas = 1
 let listaDeNumerosSorteados = [];
-let numerolimite = 3
+let numerolimite = 100
 let numeroSecreto = gerarNumeroAleatorio();
 exibirMensagemInicial();
 console.log(`Número secreto:${numeroSecreto}`);
